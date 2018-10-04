@@ -38,10 +38,10 @@ Introducing a new feature involves more than simply coding the new feature. For 
 Sample Code
 ** https://stackoverflow.com/questions/34440170/how-to-exclude-properties-from-output-csv-using-linqtocsv
 
-**CsvFileDescription outputFileDescription = new CsvFileDescription
-{
-   SeparatorChar = ',', // comma delimited
-   FirstLineHasColumnNames = true, // column names in first record
-   FileCultureName = "en-GB", // use formats used in the UK
-   EnforceCsvColumnAttribute = true // don't output if there is no csv column attribute                
-};
+         CsvFileDescription outputFileDescription = new CsvFileDescription
+         {
+            SeparatorChar = ',', // comma delimited
+            FirstLineHasColumnNames = true, // column names in first record
+            FileCultureName = "en-GB", // use formats used in the UK
+            EnforceCsvColumnAttribute = true // don't output if there is no csv column attribute                
+         };
